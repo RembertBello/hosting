@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2? family-Open+Sans:wght@300&display-swap');
+/* Inicio Variables */
+:root{
+    /* Inicio Colores */
+    --colorCaferosado: rosybrown;
+    --colorCafeRosadoOscuro: rgb(90, 69, 69);
+    --colorBlanco: white;
+    /* Fin Colores */
+
+    /* Espaciado */
+    --space: 10px;
+    /* Fin Espaciado */
+
+    /* Tipografía */
+    --normal: 12px;
+    /* Fin Tipografía */
+
+    /* box-shadow */
+    --box:  -1px -2px 10px 3px;
+    /* Inicio box-shadow */
+
+    /* Espacio imagen objetos */
+    --spaceIma: 100px;
+
+    /* Fin Espacio imagen objetos */
+}
+/* Fin Variables */
+
+html, body{
+    padding: 0px; /*Una buena practica quitar margen y espacio hacia dentro en html y body*/
+    margin: 0px;
+    font-size: 12px; /*Recomendado*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Aquí comienza nav*/
+nav{
+    display: flex; /*flex permite mover elementos de vertical a horizontal*/
+    background-color: var(--colorCaferosado);
+    padding: 20px; /*Espacio hacia dentro universales es: 10,15, 20px*/
+    color: var(--colorBlanco); /*Color de texto*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav  .logotipo{
+    padding: 0%;
+    margin: 0px;
+}
+
+nav  .logotipo img{
+    border-radius: 50%;
+    height: var(--spaceIma);
+    width: var(--spaceIma);
+    padding: -10;
+    margin: -10;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: var(--space);
+    list-style: none;
+}
+
+nav li a{
+    color: var(--colorBlanco);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: var(--colorCafeRosadoOscuro);
+}
+/*Aquí termina nav*/

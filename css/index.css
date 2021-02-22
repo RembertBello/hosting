@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2? family-Open+Sans:wght@300&display-swap');
+/* Inicio Variables */
+:root{
+    /* Inicio Colores */
+    --coloAzul: rgb(127, 238, 223);
+    --colorAzulOscuro: rgb(74, 148, 138);
+    --colorBlanco: white;
+    /* Fin Colores */
+
+    /* Espaciado */
+    --space: 10px;
+    /* Fin Espaciado */
+
+    /* Tipografía */
+    --normal: 12px;
+    /* Fin Tipografía */
+
+    /* box-shadow */
+    --box:  -1px -2px 10px 3px;
+    /* Inicio box-shadow */
+
+    /* Espacio imagen objetos */
+    --spaceIma: 70px;
+    --spaceImaP: 200px;
+
+    /* Fin Espacio imagen objetos */
+}
+/* Fin Variables */
+
+html, body{
+    padding: 0px; /*Una buena practica quitar margen y espacio hacia dentro en html y body*/
+    margin: 0px;
+    font-size: 12px; /*Recomendado*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Aquí comienza nav*/
+nav{
+    display: flex; /*flex permite mover elementos de vertical a horizontal*/
+    background-color: var(--coloAzul);
+    padding: 5px; /*Espacio hacia dentro universales es: 10,15, 20px*/
+    color: var(--colorBlanco); /*Color de texto*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav  .logotipo{
+    padding: 0%;
+    margin: 0px;
+}
+
+nav  .logotipo img{
+    border-radius: 50%;
+    height: var(--spaceIma);
+    width: var(--spaceIma);
+    padding: 10;
+    margin: 10;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: var(--space);
+    list-style: none;
+}
+
+nav li a{
+    color: var(--colorBlanco);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: var(--colorAzulOscuro);
+}
+/*Aquí termina nav*/
+
+/* Aquí inicia main */
+.main_section{
+    padding: 20px;
+    text-align: center;
+}
+.products{
+    max-height: 40px;
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0px 105px 435px;
+    display: flex;
+
+}
+
+.product{
+    padding: var(--space);
+    margin-top: -200px;
+}
+
+.imag_conte{
+    text-align: center;
+
+}
+
+.imag_conte img{
+    height: var(--spaceImaP);
+    width: var(--spaceImaP);
+}
+
+.product .content{
+    background-color: var(--colorBlanco);
+    padding: 15px;
+    box-shadow: var(--box);
+    text-align: center;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.content p{
+    margin: 20px   20px   20px   0px
+}
+
+.main_button{
+    background-color: var(--coloAzul);
+    width: 100%;
+    border: 0px;
+    font-size: var(--normal);
+    color: var(--colorBlanco);
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+}
+
+.main_button:hover{
+    background-color: var(--colorAzulOscuro);
+}
+/* Aquí termina main */
+
+/* Inicio section */
+/* Inicio Beneficios */
+section  .section1 .blessings .imgBless img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: var(--space);
+}
+
+.imgBless{
+    text-align: center;
+    margin: 2px;
+}
+
+section  .section1{
+    display: flex;
+    margin: 2%;
+}
+
+section .infoBless p, h2{
+text-align: center;
+margin: 15px;
+}
+
+section .blessings{
+    margin: 1px;
+    height: 100%;
+}
+/* Fin Beneficios */
+
+/* Inicio Comentarios */
+section  .section2 .commit .imgUser img{
+    width: 250px;
+    height: 150px;
+}
+
+.imgUser{
+    text-align: center;
+    margin: var(--space);
+}
+
+section  .section2{
+    display: flex;
+    padding: 30px;
+}
+
+section .imgUser p, h3{
+    max-width: 100%;
+    max-height: 30px;
+    text-align: left;
+    margin: 0px 0px 0px 25px;
+}
+
+section h1{
+    margin: 0%;
+    text-align: center;
+}
+/* Fin Comentarios */
+
+/* Fin section */
+
+/* Inicio Footer */
+.footer{
+    background-color: var(--colorAzulOscuro);
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    margin: 10px;
+    padding: 10px;
+    color: var(--colorBlanco);
+    
+}
+/* Inicio Footer */
