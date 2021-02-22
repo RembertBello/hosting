@@ -1,9 +1,11 @@
 
 @media (max-width: 600px)
 {
+    /* Inicio main */
     .products{
         display: inherit;
         height: auto;
+        padding: 55px 55px 665px 55px;
     }
     .product{
         margin-top: auto;
@@ -17,10 +19,14 @@
         display: inherit;
         height: auto;
     }
+      /* Fin main */
 
-    section  .section1{
+
+        /* Inicio Comentarios */
+    section .section2 {
         display: inherit;
-        margin: 2%;
-        height: auto;
+        padding: 5px 0px 0px 35px;
     }
+    
+        /* Fin Comentarios */
 }

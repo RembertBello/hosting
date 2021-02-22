@@ -77,6 +77,10 @@ nav li a:hover{
 /*Aquí termina nav*/
 
 /* Aquí inicia main */
+.desing{
+    text-align: center;
+}
+
 .main_section{
     padding: 20px;
     text-align: center;
@@ -136,34 +140,6 @@ nav li a:hover{
 /* Aquí termina main */
 
 /* Inicio section */
-/* Inicio Beneficios */
-section  .section1 .blessings .imgBless img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: var(--space);
-}
-
-.imgBless{
-    text-align: center;
-    margin: 2px;
-}
-
-section  .section1{
-    display: flex;
-    margin: 2%;
-}
-
-section .infoBless p, h2{
-text-align: center;
-margin: 15px;
-}
-
-section .blessings{
-    margin: 1px;
-    height: 100%;
-}
-/* Fin Beneficios */
 
 /* Inicio Comentarios */
 section  .section2 .commit .imgUser img{
@@ -189,7 +165,6 @@ section .imgUser p, h3{
 }
 
 section h1{
-    margin: 0%;
     text-align: center;
 }
 /* Fin Comentarios */
