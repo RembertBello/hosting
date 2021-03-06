@@ -1,0 +1,76 @@
+.container /* Los container siempre delimitan su ancho, no dan 100% */
+{
+    max-width: 900px;
+    margin: auto;
+}
+
+.row
+{
+    display: flex;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+
+.col_1
+{
+    width: 8,333333333333333;
+}
+/* Container > Row > Column */

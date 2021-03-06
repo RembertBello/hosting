@@ -1,11 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2? family-Open+Sans:wght@300&display-swap');
 /* Inicio Variables */
 :root{
     /* Inicio Colores */
     --coloAzul: rgb(127, 238, 223);
     --colorAzulOscuro: rgb(74, 148, 138);
     --colorBlanco: white;
-    --colorRosa:rgb(226, 189, 215);
     /* Fin Colores */
 
     /* Espaciado */
@@ -13,7 +12,7 @@
     /* Fin Espaciado */
 
     /* Tipografía */
-    --normal: 15px;
+    --normal: 12px;
     /* Fin Tipografía */
 
     /* box-shadow */
@@ -32,14 +31,11 @@
 html, body{
     padding: 0px; /*Una buena practica quitar margen y espacio hacia dentro en html y body*/
     margin: 0px;
-    font-size: var(--normal); /*Recomendado*/
+    font-size: 12px; /*Recomendado*/
     font-family: 'Open Sans', sans-serif;
-    background-image: url(../images/Diseño\ sin\ título.png);
-    background-size: cover;
-    background-position: center;
 }
 
-/*-------------------Aquí comienza nav-----------------------*/
+/*Aquí comienza nav*/
 nav{
     display: flex; /*flex permite mover elementos de vertical a horizontal*/
     background-color: var(--coloAzul);
@@ -50,7 +46,7 @@ nav{
 }
 
 nav  .logotipo{
-    padding: 0px 0px 0px 10px;
+    padding: 0%;
     margin: 0px;
 }
 
@@ -58,11 +54,12 @@ nav  .logotipo img{
     border-radius: 50%;
     height: var(--spaceIma);
     width: var(--spaceIma);
+    padding: 10;
+    margin: 10;
 }
 
 nav ul{
     display: flex;
-    padding: 0px 10px 0px 0px;
 }
 
 nav li{
@@ -78,32 +75,15 @@ nav li a{
 nav li a:hover{
     color: var(--colorAzulOscuro);
 }
-/*-------------------------Aquí termina nav------------------*/
+/*Aquí termina nav*/
 
-/*--------------------- Aquí inicia main--------------------- */
+/* Aquí inicia main */
+.desing{
+    text-align: center;
+}
 
 .main_section{
-    text-align: center;
-    margin: 0%;
-    padding: 0%;
-}
-
-.main_section h2{
-    padding: 20px 0px 0px 45%;
-    margin: 0;
-}
-
-.main_section h1, .main_section p{
-    margin: 0%;
-    margin-top: -25px;
-    padding: 0%;
-    font-weight: 100px;
-    font-size: 90px;
-    display: inline-block;
-    font-family: Brush Script MT;
-}
-
-.desing{
+    padding: 20px;
     text-align: center;
 }
 .products{
@@ -111,25 +91,14 @@ nav li a:hover{
     background-image: url("../images/fondo.jpg");
     background-size: cover;
     background-position: center;
-    padding: 200px 150px 140px 150px;
+    padding: 220px 0px 105px 435px;
+    display: flex;
 
 }
 
 .product{
+    padding: var(--space);
     margin-top: -200px;
-    overflow: hidden;
-
-}
-
-.product ul{
-    list-style: none;
-    display: flex;
-    padding: 0%;
-}
-.product li{
-    list-style: none;
-    display: flex;
-    padding: 0%;
 }
 
 .imag_conte{
@@ -144,11 +113,11 @@ nav li a:hover{
 
 .product .content{
     background-color: var(--colorBlanco);
+    padding: 15px;
     box-shadow: var(--box);
     text-align: center;
     max-width: 100%;
-    padding: 10px;
-    margin: 20px 55px 0px 0px;
+    max-height: auto;
 }
 
 .content p{
@@ -171,27 +140,21 @@ nav li a:hover{
 }
 /* Aquí termina main */
 
-/* -------------------------------Inicio section -----------------------------------------*/
+/* Inicio section */
 
-/* -------------------Inicio Comentarios -----------------*/
-section{
-    background-color: rgb(226, 189, 215);
-    padding: 0px 0px 0px 0px;
-}
-
-.imgUser img{
+/* Inicio Comentarios */
+section  .section2 .commit .imgUser img{
     width: 262px;
     height: 150px;
-    border-radius: 10px;
+    
 }
 
 .imgUser{
-    text-align: center;
-    height: 400px;
-    padding: 0px 0px 0px 0px;
     margin: 0px 35px 25px 35px;
-
-    border-radius: 10px;
+    box-shadow: var(--boxC);
+    text-align: center;
+    height: 350px;
+    padding: 0px 2px 0px 0px;
 }
 
 section  .section2{
@@ -208,18 +171,18 @@ section .text{
 
 section .cmts{
     text-align: center;
-    padding: 35px;
-    margin: 0%;
+    padding: 50px;
 }
 
 .text{
     text-align: left;
 }
 
-/* -------------------Fin Comentarios -----------------*/
-/* -------------------------------Fin section -----------------------------------------*/
+/* Fin Comentarios */
 
-/*---------------------------------- Inicio Footer-------------------------------------*/
+/* Fin section */
+
+/* Inicio Footer */
 .footer{
     background-color: var(--colorAzulOscuro);
     height: 35px;
@@ -231,5 +194,6 @@ section .cmts{
     margin: 10px;
     padding: 10px;
     color: var(--colorBlanco);
+    
 }
-/* -----------------------------------Inicio Footer----------------------------------- */
+/* Inicio Footer */

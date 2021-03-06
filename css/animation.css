@@ -1,0 +1,119 @@
+/* ----------------Inicio título--------------------------------------- */
+.apostrofo{
+    animation: apostrofo .5s alternate infinite ease-in;
+}
+@keyframes apostrofo{
+    0%{
+        transform: translateY(-30%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+/* ----------------Fin título--------------------------------------- */
+
+.fadeIn{
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.fadeInDown{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown{
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(0,-50%,0);
+        transform: translate3d(0,-50%,0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}
+
+.fadeInUp{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}
+    /* -----------------Movimiento horizontal inicio contenido------------------- */
+    .content{
+        animation: cambio 20s infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes cambio {
+        0%{
+            margin-left: 0%;
+        }
+        20%{
+            margin-left: 0%;
+        }
+
+        25%{
+            margin-left: -100%;
+        }
+        45%{
+            margin-left: -100%;
+        }
+
+        50%{
+            margin-left: -200%;
+        }
+        70%{
+            margin-left: -200%;
+        }
+
+
+    }
+
+    /*----------------Movimiento horizontal fin contenido------------------------ */
+
+    /*-------------------------------Inicio Hover comentario------------------------- */
+
+    .imgUser:hover{
+        transform: translateY(15px);
+        transition: all 0.25s;
+        box-shadow: 0 12px 16px;
+    }
+    /*-------------------------------Fin Hover comentario------------------------- */
+
