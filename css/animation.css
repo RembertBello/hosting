@@ -76,7 +76,7 @@
 }
     /* -----------------Movimiento horizontal inicio contenido------------------- */
     .content{
-        animation: cambio 20s infinite;
+        animation: cambio 30s infinite;
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
     }
@@ -102,8 +102,6 @@
         70%{
             margin-left: -200%;
         }
-
-
     }
 
     /*----------------Movimiento horizontal fin contenido------------------------ */

@@ -1,62 +1,87 @@
 /* inicio rango 400-600 */
 @media (max-width: 600px)
 {
-    nav a{
-        font-size: 15px;
-    }
-
-    /* Inicio main */
-    .products{
-        display: inherit;
-        height: auto;
-        padding: 55px 55px 665px 55px;
-    }
-    .product{
-        margin-top: auto;
-    }
-
-    .main_section{
-        padding: 4%;
-    }
-
-    .section1{
-        display: inherit;
-        height: auto;
-    }
-      /* Fin main */
-
-
-        /* Inicio Comentarios */
-    section .section2 {
-        display: inherit;
-    }
-
-    section .imgUser{
-        margin: 15px 45px 10px 50px;
-    }
-        /* Fin Comentarios */
-}
-/* Fin rango 400-600 */
-
-/* inicio rango 250-399 */
-@media (max-width: 400px)
-{
     html, body {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     nav a{
         font-size: 10px;
+        margin: 0px 0px 0px 10px;
     }
 
     /* Inicio main */
-    .products{
-        display: inherit;
+    .main_section h1, .main_section p{
+        font-size: 40px;
+        margin-top: -5px;
         height: auto;
-        padding: 55px 55px 665px 55px;
+        min-width: min-content;
     }
-    .product{
+
+    .products{
+        padding: 0px 20px 350px 20px;
+    }
+    .product {
         margin-top: auto;
+        max-height: max-content;
+    }
+
+    .content{
+
+        height: inherit;
+        padding: 0px;
+        margin: 40px 100px 0px 0px;
+    }
+
+    @keyframes cambio {
+        0%{
+            margin-left: 30%;
+        }
+        5%{
+            margin-left: 30%;
+        }
+
+        10%{
+            margin-left: 70%;
+        }
+        15%{
+            margin-left: -70%;
+        }
+
+        20%{
+            margin-left: -170%;
+        }
+        25%{
+            margin-left: -170%;
+        }
+        
+        30%{
+            margin-left: -270%;
+        }
+        35%{
+            margin-left: -270%;
+        }
+        
+        40%{
+            margin-left: -370%;
+        }
+        45%{
+            margin-left: -370%;
+        }
+        
+        50%{
+            margin-left: -470%;
+        }
+        55%{
+            margin-left: -470%;
+        }
+        
+/*         60%{
+            margin-left: -595%;
+        }
+        65%{
+            margin-left: -595%;
+        } */
     }
 
     .main_section{
@@ -64,7 +89,7 @@
     }
 
     .imag_conte img {
-        width: 80px;
+        width: 200px;
     }
     .section1{
         display: inherit;
@@ -80,12 +105,130 @@
 
 
     section .imgUser img{
-        max-width: 80px;
+        max-width: 400vh;
     }
 
 
     section .imgUser{
-        margin: 15px 0px 10px 0px;
+        margin: 10px 20px 30px 50px;
+        height: auto;
+    }
+        /* Fin Comentarios */
+}
+/* Fin rango 400-600 */
+
+/* inicio rango 250-399 */
+@media (max-width: 400px)
+{
+
+    nav a{
+        font-size: 10px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    /* Inicio main */
+    .main_section h1, .main_section p{
+        font-size: 40px;
+        margin-top: -5px;
+        height: auto;
+        min-width: min-content;
+    }
+
+    .products{
+        padding: 0px 45px 350px 45px;
+    }
+    .product {
+        margin-top: auto;
+        max-height: max-content;
+    }
+
+    .content{
+
+        height: inherit;
+        padding: 0px;
+        margin: 40px 100px 0px 0px;
+    }
+
+
+    @keyframes cambio {
+        0%{
+            margin-left: 5%;
+        }
+        5%{
+            margin-left: 5%;
+        }
+
+        10%{
+            margin-left: -95%;
+        }
+        15%{
+            margin-left: -95%;
+        }
+
+        20%{
+            margin-left: -195%;
+        }
+        25%{
+            margin-left: -195%;
+        }
+        
+        30%{
+            margin-left: -295%;
+        }
+        35%{
+            margin-left: -295%;
+        }
+        
+        40%{
+            margin-left: -395%;
+        }
+        45%{
+            margin-left: -395%;
+        }
+        
+        50%{
+            margin-left: -495%;
+        }
+        55%{
+            margin-left: -495%;
+        }
+        
+/*         60%{
+            margin-left: -595%;
+        }
+        65%{
+            margin-left: -595%;
+        } */
+    }
+
+    .main_section{
+        padding: 4%;
+    }
+
+    .imag_conte img {
+        width: 200px;
+    }
+    .section1{
+        display: inherit;
+        height: auto;
+    }
+      /* Fin main */
+
+
+        /* Inicio Comentarios */
+    section .section2 {
+        display: inherit;
+    }
+
+
+    section .imgUser img{
+        max-width: 400vh;
+    }
+
+
+    section .imgUser{
+        margin: 10px 0px 30px 0px;
+        height: auto;
     }
         /* Fin Comentarios */
 }

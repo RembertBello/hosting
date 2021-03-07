@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Slab:ital,wght@1,600&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 /* Inicio Variables */
 :root{
     /* Inicio Colores */
@@ -37,6 +39,8 @@ html, body{
     background-image: url(../images/Diseño\ sin\ título.png);
     background-size: cover;
     background-position: center;
+    height: auto;
+    width: 100%;
 }
 
 /*-------------------Aquí comienza nav-----------------------*/
@@ -88,9 +92,11 @@ nav li a:hover{
     padding: 0%;
 }
 
-.main_section h2{
-    padding: 20px 0px 0px 45%;
+.main_section h2, section .cmts{
+
     margin: 0;
+    font-family: 'Josefin Slab', serif;
+    font-size: 5ch
 }
 
 .main_section h1, .main_section p{
@@ -100,12 +106,9 @@ nav li a:hover{
     font-weight: 100px;
     font-size: 90px;
     display: inline-block;
-    font-family: Brush Script MT;
+    font-family: 'Dancing Script', cursive;
 }
 
-.desing{
-    text-align: center;
-}
 .products{
     max-height: 40px;
     background-image: url("../images/fondo.jpg");
@@ -142,7 +145,7 @@ nav li a:hover{
     width: var(--spaceImaP);
 }
 
-.product .content{
+.content{
     background-color: var(--colorBlanco);
     box-shadow: var(--box);
     text-align: center;
@@ -156,7 +159,7 @@ nav li a:hover{
 }
 
 .main_button{
-    background-color: var(--coloAzul);
+    background-color: var(--colorRosa);
     width: 100%;
     border: 0px;
     font-size: var(--normal);
@@ -196,14 +199,14 @@ section{
 
 section  .section2{
     display: flex;
-    padding: 0px 30px 0px 10px;
+    padding: 0px 30px 10px 10px;
 }
 
 section .text{
     height: auto;
     width: inherit;
     max-width: 80%;
-    margin: 0px 0px 0px 25px;
+    margin: 0px 0px 10px 25px;
 }
 
 section .cmts{
