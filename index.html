@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="images/logohead.jpg">
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <title>Dela´s</title>
 </head>
 
@@ -143,7 +143,7 @@
         <img src="images/yes.jpg" alt="descripción">
         <div class="text">
             <h1>Alguien</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque aliquid quibusdam reprehenderit
+            <p>adipisicing elit. Sequi cumque aliquid quibusdam reprehenderit
                 pariatur itaque cupiditate porro perferendis voluptatibus soluta quaerat repudiandae sunt dolorem fugit
                 dolor fuga cum, nihil totam?</p>
         </div>
@@ -164,6 +164,7 @@
     </div>
 </div>
 <!-- Fin Objeto3 -->
+
 <!-- inicio Objeto3-->
 <div class="commit">
     <div class="imgUser">
@@ -181,16 +182,23 @@
 <!-- Aquí termina división Section -->
     <!-- Aquí inicia footer -->
     <footer>
-        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-        <df-messenger intent="WELCOME" chat-title="Deli" agent-id="d2fd34eb-fe57-4dac-acf3-c5a6e9fa16d3"
-            language-code="es"></df-messenger>
         <div class="footer">
-            <p>Terminos y condiciones</p>
-            <p>rmbello7@misena.edu.co</p>
+            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger intent="WELCOME" chat-title="Deli" agent-id="d2fd34eb-fe57-4dac-acf3-c5a6e9fa16d3"
+                language-code="es"></df-messenger>
+            <div class="texto_pie">
+                <a href="mailto:rmbello7@misena.edu.co">Soporte técnico</a>
+            </div>
+
+            <div class="grafico_pie">
+                <a target="_blank" href="https://www.facebook.com/Delas-reposter%C3%ADa-106632704580109">
+                    <img class="logo_fb" src="images/facebook.png" alt="logo_fb">
+                </a>
+            </div>
+
         </div>
     </footer>
     <!-- Aquí termina footer -->
 
 </body>
-
 </html>

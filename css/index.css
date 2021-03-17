@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Slab:ital,wght@1,600&family=Oswald:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@200&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* 900px , 1vh evaluaría a 9px
+750px , 1vw evaluaría a 7.5px
+*/
+
 /* Inicio Variables */
 :root{
     /* Inicio Colores */
@@ -36,12 +41,7 @@ html, body{
     margin: 0px;
     font-size: var(--normal); /*Recomendado*/
     font-family: 'Open Sans', sans-serif;
-    background-image: url(../images/Diseño\ sin\ título.png);
-    background-size: cover;
-    background-position: center;
-    height: auto;
-    width: 100%;
-}
+    }
 
 /*-------------------Aquí comienza nav-----------------------*/
 nav{
@@ -90,13 +90,18 @@ nav li a:hover{
     text-align: center;
     margin: 0%;
     padding: 0%;
+    background-image: url(../images/Desing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
 }
 
 .main_section h2, section .cmts{
 
     margin: 0;
     font-family: 'Josefin Slab', serif;
-    font-size: 5ch
+    font-size: 5ch;
 }
 
 .main_section h1, .main_section p{
@@ -106,22 +111,28 @@ nav li a:hover{
     font-weight: 100px;
     font-size: 90px;
     display: inline-block;
-    font-family: 'Dancing Script', cursive;
 }
 
 .products{
-    max-height: 40px;
+    max-height: 5vh;
     background-image: url("../images/fondo.jpg");
     background-size: cover;
     background-position: center;
-    padding: 200px 150px 140px 150px;
+    padding: 30vh 5vw 25vh 5vw;
+}
 
+.content{
+    background-color: var(--colorBlanco);
+    box-shadow: var(--box);
+    text-align: center;
+    max-width: 100%;
+    padding: 10px;
+    margin: 5vh 7vw 0vh 0vw;
 }
 
 .product{
     margin-top: -200px;
     overflow: hidden;
-
 }
 
 .product ul{
@@ -143,15 +154,6 @@ nav li a:hover{
 .imag_conte img{
     height: var(--spaceImaP);
     width: var(--spaceImaP);
-}
-
-.content{
-    background-color: var(--colorBlanco);
-    box-shadow: var(--box);
-    text-align: center;
-    max-width: 100%;
-    padding: 10px;
-    margin: 20px 55px 0px 0px;
 }
 
 .content p{
@@ -179,34 +181,31 @@ nav li a:hover{
 /* -------------------Inicio Comentarios -----------------*/
 section{
     background-color: rgb(226, 189, 215);
-    padding: 0px 0px 0px 0px;
+    padding: 0%;
 }
 
 .imgUser img{
-    width: 262px;
-    height: 150px;
-    border-radius: 10px;
+    width: 18vw;
+    height: 30vh;
+    border-radius: 2vh 2vw 0vh 0vw;
 }
 
 .imgUser{
     text-align: center;
-    height: 400px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 35px 25px 35px;
-
-    border-radius: 10px;
+    width: 18vw;
+    height: 70vh;
+    padding: 0px;
+    margin: 0vh 3vw 5vh 3.5vw;
+    border-radius: 2vh 2vw 2vh 2vw;
 }
 
-section  .section2{
+.section2{
     display: flex;
-    padding: 0px 30px 10px 10px;
 }
 
 section .text{
-    height: auto;
-    width: inherit;
-    max-width: 80%;
-    margin: 0px 0px 10px 25px;
+    max-width: 100%;
+    margin: 0vh 1vw 1vh 1vw;
 }
 
 section .cmts{
@@ -223,16 +222,41 @@ section .cmts{
 /* -------------------------------Fin section -----------------------------------------*/
 
 /*---------------------------------- Inicio Footer-------------------------------------*/
+
 .footer{
     background-color: var(--colorAzulOscuro);
-    height: 35px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 4px 0px 2px 4px;
 }
-.footer p{
+.footer p, .footer a{
     margin: 10px;
-    padding: 10px;
     color: var(--colorBlanco);
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: var(--colorRosa);
+}
+
+
+.texto_pie{
+    margin: 0%;
+    display: flex;
+    width: 50%;
+}
+
+.grafico_pie{
+    height: 100%;
+    width: 100%;
+}
+
+.logo_fb{
+    height: 30px;
+    width: 30px;
+    margin: 0%;
+
 }
 /* -----------------------------------Inicio Footer----------------------------------- */
